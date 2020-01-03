@@ -1,0 +1,43 @@
+<profiles>
+
+	<profile>
+		<address>randomA</address>
+		<email>aaa@a.com</email>
+	</profile>
+	
+	<profile>
+		<address>randomB</address>
+		<email>bbb@b.com</email>
+	</profile>
+	
+	<profile>
+		<address>randomC</address>
+		<email>ccc@c.com</email>
+	</profile>
+	
+	<profile>
+		<address>randomD</address>
+		<email>ddd@d.com</email>
+	</profile>
+	
+	<profile>
+		<address>randomA</address>
+		<email>aaa@a.com</email>
+	</profile>
+	
+	<profile>
+		<address>randomB</address>
+		<email>bbb@b.com</email>
+	</profile>
+	
+	<profile>
+		<address>randomC</address>
+		<email>ccc@c.com</email>
+	</profile>
+	
+	<profile>
+		<address>randomD</address>
+		<email>ddd@d.com</email>
+	</profile>
+
+</profiles>

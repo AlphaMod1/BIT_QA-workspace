@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite">
+	<test name="testngTest">
+		<classes>
+			<class name="sposterTest.Calendar" />
+			<class name="sposterTest.Login" />
+			<class name="sposterTest.Post" />
+		</classes>
+	</test>
+</suite>

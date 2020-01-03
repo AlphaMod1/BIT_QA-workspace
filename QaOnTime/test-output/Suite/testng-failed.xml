@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="methods">
+  <test thread-count="1" name="testngTest(failed)" parallel="methods">
+    <groups>
+      <run>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="tests.QaOnTime_Nd">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="login"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- tests.QaOnTime_Nd -->
+      <class name="tests.DealTest">
+        <methods>
+          <include name="dealCouldNotBeCreatedBecouseItWasMissingAPrice"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- tests.DealTest -->
+      <class name="tests.ProfileTest">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="beforeClass"/>
+          <include name="should_NOT_UpdateProfile_BecauseBadEmailFormat"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- tests.ProfileTest -->
+    </classes>
+  </test> <!-- testngTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

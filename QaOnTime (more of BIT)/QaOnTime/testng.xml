@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="true" thread-count="2">
+  <test name="Test">
+    
+    <classes>
+      <!-- <class name="tests.QaOntime"/> -->
+      <class name="tests.MonethaDealsTest"/>
+ 
+    </classes>
+  </test> <!-- Test -->
+  
+    <test name="Test2">
+    <classes>
+      <class name="tests.MonethaProfileTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
+
+

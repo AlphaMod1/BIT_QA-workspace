@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="testngTest(failed)">
+    <classes>
+      <class name="sposterTest.Post">
+        <methods>
+          <include name="afterClass"/>
+          <include name="checkOnFacebookIfThePostPosted"/>
+          <include name="beforeClass"/>
+          <include name="shouldBeAbleToDeleteTheSamePost"/>
+          <include name="shouldBeAbleToLoginToFacebook"/>
+          <include name="shouldBeAbleToPostToFacebook"/>
+          <include name="NF_shouldNotBeAbleToCreatePost_WithOutCampaign"/>
+        </methods>
+      </class> <!-- sposterTest.Post -->
+      <class name="sposterTest.Login">
+        <methods>
+          <include name="NF_ShouldFailLogin_BadUsername_WithACeckMark"/>
+          <include name="shouldLogin_WithACeckMark"/>
+          <include name="NF_ShouldFailLogin_EmptyUserFields_WithACheckMark"/>
+          <include name="NF_ShouldFailLogin_BadUsername_WithOutACeckMark"/>
+          <include name="afterClass"/>
+          <include name="NF_ShouldFailLogin_BadPassword_WithACeckMark"/>
+          <include name="NF_ShouldFailLogin_BadPassword_WithOutACeckMark"/>
+          <include name="shouldLogin_WithOutACeckMark"/>
+          <include name="beforeClass"/>
+          <include name="NF_ShouldFailLogin_EmptyUserFields_WithOutACeckMark"/>
+        </methods>
+      </class> <!-- sposterTest.Login -->
+    </classes>
+  </test> <!-- testngTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

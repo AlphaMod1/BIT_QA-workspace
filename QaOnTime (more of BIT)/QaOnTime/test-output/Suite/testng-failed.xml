@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [Suite]" parallel="methods">
+  <test thread-count="2" name="Test(failed)" parallel="methods">
+    <classes>
+      <class name="tests.MonethaDealsTest">
+        <methods>
+          <include name="shouldBeAbleToConfirmDealDetails"/>
+          <include name="shouldNotBeAbleToCreateADealWhenPriceIsNotNumber"/>
+          <include name="afterClass"/>
+          <include name="shouldBeAbleToConfirmPayment"/>
+          <include name="shouldBeAbleToCreateDeal"/>
+          <include name="shouldBeAbleToLogout"/>
+          <include name="shouldBeAbleToPayForDealWithCash"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.MonethaDealsTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test thread-count="2" name="Test2(failed)" parallel="methods">
+    <classes>
+      <class name="tests.MonethaProfileTest">
+        <methods>
+          <include name="afterClass"/>
+          <include name="shouldBeAbleToUpdateProfile"/>
+          <include name="setup"/>
+          <include name="shouldNotBeAbleToUpdateProfileWhenEmailInvalid"/>
+          <include name="beforeClass"/>
+        </methods>
+      </class> <!-- tests.MonethaProfileTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

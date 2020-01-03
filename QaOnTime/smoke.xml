@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="methods" thread-count="3" >
+	<test name="testngTest">
+		<groups>
+			<run>
+				<include name="smoke" />
+			</run>
+		</groups>
+		<classes>
+			<class name="tests.QaOnTime_Nd" />
+			<class name="tests.DealTest" />
+			<class name="tests.ProfileTest" />
+		</classes>
+	</test>
+</suite>

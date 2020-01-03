@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="14" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="136031" started-at="2019-02-08T08:27:19Z" finished-at="2019-02-08T08:29:35Z">
+    <groups>
+      <group name="mainflow">
+        <method signature="Post.shouldBeAbleToLoginToFacebook()[pri:0, instance:sposterTest.Post@1a3869f4]" name="shouldBeAbleToLoginToFacebook" class="sposterTest.Post"/>
+        <method signature="Post.shouldBeAbleToPostToFacebook()[pri:0, instance:sposterTest.Post@1a3869f4]" name="shouldBeAbleToPostToFacebook" class="sposterTest.Post"/>
+        <method signature="Post.checkOnFacebookIfThePostPosted()[pri:0, instance:sposterTest.Post@1a3869f4]" name="checkOnFacebookIfThePostPosted" class="sposterTest.Post"/>
+        <method signature="Post.shouldBeAbleToDeleteTheSamePost()[pri:0, instance:sposterTest.Post@1a3869f4]" name="shouldBeAbleToDeleteTheSamePost" class="sposterTest.Post"/>
+      </group> <!-- mainflow -->
+    </groups>
+    <test name="testngTest" duration-ms="136031" started-at="2019-02-08T08:27:19Z" finished-at="2019-02-08T08:29:35Z">
+      <class name="sposterTest.Login">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:sposterTest.Login@77ec78b9]" name="beforeClass" is-config="true" duration-ms="6370" started-at="2019-02-08T08:27:19Z" finished-at="2019-02-08T08:27:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="NF_ShouldFailLogin_BadPassword_WithACeckMark()[pri:0, instance:sposterTest.Login@77ec78b9]" name="NF_ShouldFailLogin_BadPassword_WithACeckMark" duration-ms="5158" started-at="2019-02-08T08:27:26Z" finished-at="2019-02-08T08:27:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NF_ShouldFailLogin_BadPassword_WithACeckMark -->
+        <test-method status="PASS" signature="NF_ShouldFailLogin_BadPassword_WithOutACeckMark()[pri:0, instance:sposterTest.Login@77ec78b9]" name="NF_ShouldFailLogin_BadPassword_WithOutACeckMark" duration-ms="2483" started-at="2019-02-08T08:27:31Z" finished-at="2019-02-08T08:27:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NF_ShouldFailLogin_BadPassword_WithOutACeckMark -->
+        <test-method status="PASS" signature="NF_ShouldFailLogin_BadUsername_WithACeckMark()[pri:0, instance:sposterTest.Login@77ec78b9]" name="NF_ShouldFailLogin_BadUsername_WithACeckMark" duration-ms="2723" started-at="2019-02-08T08:27:33Z" finished-at="2019-02-08T08:27:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NF_ShouldFailLogin_BadUsername_WithACeckMark -->
+        <test-method status="PASS" signature="NF_ShouldFailLogin_BadUsername_WithOutACeckMark()[pri:0, instance:sposterTest.Login@77ec78b9]" name="NF_ShouldFailLogin_BadUsername_WithOutACeckMark" duration-ms="2485" started-at="2019-02-08T08:27:36Z" finished-at="2019-02-08T08:27:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NF_ShouldFailLogin_BadUsername_WithOutACeckMark -->
+        <test-method status="PASS" signature="NF_ShouldFailLogin_EmptyUserFields_WithACheckMark()[pri:0, instance:sposterTest.Login@77ec78b9]" name="NF_ShouldFailLogin_EmptyUserFields_WithACheckMark" duration-ms="1715" started-at="2019-02-08T08:27:39Z" finished-at="2019-02-08T08:27:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NF_ShouldFailLogin_EmptyUserFields_WithACheckMark -->
+        <test-method status="PASS" signature="NF_ShouldFailLogin_EmptyUserFields_WithOutACeckMark()[pri:0, instance:sposterTest.Login@77ec78b9]" name="NF_ShouldFailLogin_EmptyUserFields_WithOutACeckMark" duration-ms="1302" started-at="2019-02-08T08:27:40Z" finished-at="2019-02-08T08:27:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NF_ShouldFailLogin_EmptyUserFields_WithOutACeckMark -->
+        <test-method status="PASS" signature="shouldLogin_WithACeckMark()[pri:0, instance:sposterTest.Login@77ec78b9]" name="shouldLogin_WithACeckMark" duration-ms="7243" started-at="2019-02-08T08:27:42Z" finished-at="2019-02-08T08:27:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldLogin_WithACeckMark -->
+        <test-method status="PASS" signature="shouldLogin_WithOutACeckMark()[pri:0, instance:sposterTest.Login@77ec78b9]" name="shouldLogin_WithOutACeckMark" duration-ms="5703" started-at="2019-02-08T08:27:49Z" finished-at="2019-02-08T08:27:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldLogin_WithOutACeckMark -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:sposterTest.Login@77ec78b9]" name="afterClass" is-config="true" duration-ms="124" started-at="2019-02-08T08:27:55Z" finished-at="2019-02-08T08:27:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- sposterTest.Login -->
+      <class name="sposterTest.Post">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:sposterTest.Post@1a3869f4]" name="beforeClass" is-config="true" duration-ms="1851" started-at="2019-02-08T08:27:55Z" finished-at="2019-02-08T08:27:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="shouldBeAbleToLoginToFacebook()[pri:0, instance:sposterTest.Post@1a3869f4]" name="shouldBeAbleToLoginToFacebook" duration-ms="10404" started-at="2019-02-08T08:27:57Z" finished-at="2019-02-08T08:28:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeAbleToLoginToFacebook -->
+        <test-method status="PASS" signature="shouldBeAbleToPostToFacebook()[pri:0, instance:sposterTest.Post@1a3869f4]" name="shouldBeAbleToPostToFacebook" duration-ms="63121" started-at="2019-02-08T08:28:07Z" depends-on-methods="sposterTest.Post.shouldBeAbleToLoginToFacebook" finished-at="2019-02-08T08:29:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeAbleToPostToFacebook -->
+        <test-method status="PASS" signature="checkOnFacebookIfThePostPosted()[pri:0, instance:sposterTest.Post@1a3869f4]" name="checkOnFacebookIfThePostPosted" duration-ms="11305" started-at="2019-02-08T08:29:10Z" depends-on-methods="sposterTest.Post.shouldBeAbleToPostToFacebook" finished-at="2019-02-08T08:29:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOnFacebookIfThePostPosted -->
+        <test-method status="PASS" signature="shouldBeAbleToDeleteTheSamePost()[pri:0, instance:sposterTest.Post@1a3869f4]" name="shouldBeAbleToDeleteTheSamePost" duration-ms="3352" started-at="2019-02-08T08:29:21Z" depends-on-methods="sposterTest.Post.checkOnFacebookIfThePostPosted" finished-at="2019-02-08T08:29:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldBeAbleToDeleteTheSamePost -->
+        <test-method status="PASS" signature="NF_shouldNotBeAbleToCreatePost_WithOutCampaign()[pri:0, instance:sposterTest.Post@1a3869f4]" name="NF_shouldNotBeAbleToCreatePost_WithOutCampaign" duration-ms="10647" started-at="2019-02-08T08:29:25Z" depends-on-methods="sposterTest.Post.shouldBeAbleToDeleteTheSamePost" finished-at="2019-02-08T08:29:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NF_shouldNotBeAbleToCreatePost_WithOutCampaign -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:sposterTest.Post@1a3869f4]" name="afterClass" is-config="true" duration-ms="1" started-at="2019-02-08T08:29:35Z" finished-at="2019-02-08T08:29:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- sposterTest.Post -->
+    </test> <!-- testngTest -->
+  </suite> <!-- Suite -->
+</testng-results>
